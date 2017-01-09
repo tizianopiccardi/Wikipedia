@@ -1,0 +1,1 @@
+Really ugly code but useful for copy&paste :)
