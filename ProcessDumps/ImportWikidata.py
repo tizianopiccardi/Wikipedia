@@ -1,3 +1,6 @@
+"""
+STEP 2
+"""
 from pyspark.sql import *
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
