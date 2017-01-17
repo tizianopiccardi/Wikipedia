@@ -67,6 +67,7 @@ enwiki:NOTES
 dewiki:SIEHE AUCH
 nlwiki:EXTERNE LINKS
 nlwiki:EXTERNE LINK
+dewiki:ANMERKUNGEN
 enwiki:FURTHER READING
 nlwiki:ZIE OOK
 frwiki:LIEN EXTERNE
@@ -106,4 +107,4 @@ sections_titles = sqlContext.createDataFrame(merged_sections.map(as_row)).filter
 def as_string(section):
     return "\t".join(section.sections)
 
-sections_titles.map(as_string).saveAsTextFile('hdfs:///user/piccardi/all_sections_merged.txt')
+sections_titles.map(as_string).saveAsTextFile('hdfs:///user/piccardi/all_sections_merged3.txt')
